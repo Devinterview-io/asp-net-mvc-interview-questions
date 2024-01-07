@@ -1,42 +1,778 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">Top 35 ASP.NET MVC interview
-      questions and answers in 2021.</h1> <p data-v-5e9078c0="">
-        You can check all
-        35
-        ASP.NET MVC interview questions here 👉
-        https://devinterview.io/dev/aspnetMvc-interview-questions
-      </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. What is Layout in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Layout pages are similar to master pages in traditional web forms. This is used to set the common look across multiple pages. In each child page we can find —</p><pre><code>@{
-Layout = “~/Views/Shared/TestLayout1.cshtml”;
-}</code></pre><p>This indicates child page uses TestLayout page as it’s master page.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is Layout in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. What is ASP.NET MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>ASP.NET MVC is a web application Framework. It is light weight and highly testable Framework. MVC separates application into three components — Model, View and Controller.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is ASP.NET MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. What is Razor Pages?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><a href="https://codingblast.com/asp-net-core-razor-pages/">Razor Pages</a> is a new feature of ASP.NET Core that makes coding page-focused scenarios easier and more productive.</p><p>With Razor Pages, you have this one Razor file (<em>.cshtml</em>), and the code for a single page lives inside of that file, and that file also represents the URL structure of the app. Therefore, you got everything inside of one file, and it just works.</p><p>However, you can separate your code to the <em>code behind</em> file with <em>.cshtml.cs</em> extension. You would usually have your view model and handlers (like action methods in MVC) in that file and handle the logic there. Of course, you could also have your view model moved to separate place.</p><p>Since Razor Pages is part of the MVC stack, you can use anything that comes with MVC inside of our Razor Pages.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://codingblast.com/asp-net-core-interview-questions/" rel="noreferrer" target="_blank" title="What is Razor Pages? Interview Questions Source To Answer">codingblast.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. What are Actions in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Actions</strong> are the methods in Controller class which is responsible for returning the view or json data. Action will mainly have return type — “ActionResult” and it will be invoked from method — “InvokeAction()” called by controller.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What are Actions in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. Can you explain Model, Controller and View in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><strong>Model</strong> — It’s a business entity and it is used to represent the application data.</li><li><strong>Controller</strong> — Request sent by the user always scatters through controller and it’s responsibility is to redirect to the specific view using View() method.</li><li><strong>View</strong> — It’s the presentation layer of MVC.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Can you explain Model, Controller and View in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. Explain Bundle.Config in MVC4?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>“BundleConfig.cs”</strong> in MVC4 is used to register the bundles by the bundling and minification system. Many bundles are added by default including jQuery libraries like — jquery.validate, Modernizr, and default CSS references.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Explain Bundle.Config in MVC4? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. What you mean by Routing in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Routing</strong> is a pattern matching mechanism of incoming requests to the URL patterns which are registered in route table. Class — “UrlRoutingModule” is used for the same process.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What you mean by Routing in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. Explain Sections is MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Section are the part of HTML which is to be rendered in layout page. In Layout page we will use the below syntax for rendering the HTML –</p><pre><code>@RenderSection(“TestSection”)</code></pre><p>And in child pages we are defining these sections as shown below –</p><pre><code>@section TestSection{
-     <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>h1</span><span class="token cBase">&gt;</span></span>Test Content<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>h1</span><span class="token cBase">&gt;</span></span>
-}</code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Explain Sections is MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. What is the use of ViewModel in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>ViewModel is a plain class with properties, which is used to bind it to strongly typed view. ViewModel can have the validation rules defined for its properties using data annotations.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is the use of ViewModel in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. What are Non Action methods in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>In MVC all public methods have been treated as Actions. So if you are creating a method and if you do not want to use it as an action method then the method has to be decorated with "NonAction" attribute as shown below:</p><pre><code><span class="token cBase">[</span><span class="token class-name">NonAction</span><span class="token cBase">]</span>
-<span class="token cVar">public</span> <span class="token cVar">void</span> <span class="token cMod">TestMethod</span><span class="token cBase">(</span><span class="token cBase">)</span>
-<span class="token cBase">{</span>
-   <span class="token cComment">// Method logic</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/21758615/why-should-i-use-ihttpactionresult-instead-of-httpresponsemessage" rel="noreferrer" target="_blank" title="What are Non Action methods in MVC? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. What are Scaffold templates in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Scaffolding in ASP.NET MVC is used to generate the Controllers, Model and Views for create, read, update, and delete (CRUD) functionality in an application. The scaffolding will be knowing the naming conventions used for models and controllers and views.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What are Scaffold templates in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. What is Razor View Engine?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Razor</strong> is the first major update to render HTML in MVC 3. Razor was designed specifically for view engine syntax. Main focus of this would be to simplify and code-focused templating for HTML generation. Below is the sample of using Razor:</p><pre><code>@model MvcMusicStore.Models.Customer
-@{ViewBag.Title = “Get Customers”;}
-<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>div</span> <span class="token cVar">class</span><span class="token cString"><span class="token cBase">=</span>”cust”</span><span class="token cBase">&gt;</span></span> <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>h3</span><span class="token cBase">&gt;</span></span><span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;</span>em</span><span class="token cBase">&gt;</span></span>@Model.CustomerName<span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>em</span><span class="token cBase">&gt;</span></span> <span class="token cBool"><span class="token cBool"><span class="token cBase">&lt;/</span>h3</span><span class="token cBase">&gt;</span></span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is Razor View Engine? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. What are the advantages of MVC over ASP.NET?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li>Provides a clean separation of concerns among UI (Presentation layer), model (Transfer objects/Domain Objects/Entities) and Business Logic (Controller).</li><li>Easy to UNIT Test</li><li>Improved reusability of model and views. We can have multiple views which can point to the same model and vice versa.</li><li>Improved structuring of the code</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What are the advantages of MVC over ASP.NET? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. What is Attribute Routing in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>ASP.NET Web API supports this type routing. This is introduced in MVC5. In this type of routing, attributes are being used to define the routes. This type of routing gives more control over classic URI Routing. Attribute Routing can be defined at controller level or at Action level like –</p><pre><code><span class="token cBase">[</span><span class="token cMod">Route</span><span class="token cBase">(</span>“<span class="token cBase">{</span>action <span class="token cBase">=</span> TestCategoryList<span class="token cBase">}</span>”<span class="token cBase">)</span><span class="token cBase">]</span> — Controller Level
-<span class="token cBase">[</span><span class="token cMod">Route</span><span class="token cBase">(</span>“customers<span class="token cBase">/</span><span class="token cBase">{</span>TestCategoryId<span class="token cBase">:</span>int<span class="token cBase">:</span><span class="token cMod">min</span><span class="token cBase">(</span><span class="token cNum">10</span><span class="token cBase">)</span><span class="token cBase">}</span>”<span class="token cBase">)</span><span class="token cBase">]</span> — Action Level</code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is Attribute Routing in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 15. What is the "HelperPage.IsAjax" Property?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The HelperPage.IsAjax property gets a value that indicates whether Ajax is being used during the request of the Web page.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is the &quot;HelperPage.IsAjax&quot; Property? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 16. What is RouteConfig.cs in MVC 4?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>"RouteConfig.cs" holds the routing configuration for MVC. RouteConfig will be initialized on Application_Start event registered in Global.asax.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is RouteConfig.cs in MVC 4? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 17. What are HTML Helpers in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>HTML Helpers are like controls in traditional web forms. But HTML helpers are more lightweight compared to web controls as it does not hold viewstate and events.
-HTML Helpers returns the HTML string which can be directly rendered to HTML page. Custom HTML Helpers also can be created by overriding “HtmlHelper” class.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What are HTML Helpers in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 18. Explain ASP.NET WebApi vs MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Usually, WebAPI used for data services where MVC can generate more types of outputs (like template HTML views).</p><ul><li>WebAPI simplifies the way we can create REST data services. It's clean and easy for this purpose.</li><li>MVC can generate any output WebAPI can output. Generating outputs from templates can be easily achieved in MVC. I can't find a reason to do so in WebAPI. </li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/19336347/what-is-the-difference-between-a-web-api-and-a-web-service" rel="noreferrer" target="_blank" title="Explain ASP.NET WebApi vs MVC? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 19. What is the difference between ViewResult() and ActionResult() in ASP.NET MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div class="mb-2"><span class="h5">Problem</span></div><div><div class="AnswerBody"><p>Consider:</p><pre><code><span class="token cVar">public</span> <span class="token class-name">ViewResult</span> <span class="token cMod">Index</span><span class="token cBase">(</span><span class="token cBase">)</span>
-<span class="token cBase">{</span>
-    <span class="token cVar">return</span> <span class="token cMod">View</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span>
+# 100 Fundamental ASP.NET MVC Interview Questions
 
-<span class="token cVar">public</span> <span class="token class-name">ActionResult</span> <span class="token cMod">Index</span><span class="token cBase">(</span><span class="token cBase">)</span>
-<span class="token cBase">{</span>
-    <span class="token cVar">return</span> <span class="token cMod">View</span><span class="token cBase">(</span><span class="token cBase">)</span><span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div><div><div class="AnswerBody"><ul><li><strong>ActionResult</strong> is an abstract class.</li><li><strong>ViewResult</strong> derives from ActionResult. Other derived classes include <code>JsonResult</code> and <code>PartialViewResult</code>.</li></ul><p>The only difference is that with the <code>ActionResult</code> one, your controller isn't promising to return a view - you could change the method body to conditionally return a <code>RedirectResult</code> or something else without changing the method definition.</p><p>And some <code>ActionResult</code> subtypes are:</p><ul><li><strong>ViewResult</strong> - Renders a specifed view to the response stream</li><li><strong>PartialViewResult</strong> - Renders a specifed partial view to the response stream</li><li><strong>EmptyResult</strong> - An empty response is returned</li><li><strong>RedirectResult</strong> - Performs an HTTP redirection to a specifed URL</li><li><strong>RedirectToRouteResult</strong> - Performs an HTTP redirection to a URL that is determined  by the 
-routing engine, based on given route data</li><li><strong>JsonResult</strong> - Serializes a given ViewData object to JSON format</li><li><strong>JavaScriptResult</strong> - Returns a piece of JavaScript code that can be executed on the client</li><li><strong>ContentResult</strong> - Writes content to the response stream without requiring  a view</li><li><strong>FileContentResult</strong> - Returns a file to the client</li><li><strong>FileStreamResult</strong> - Returns a file to the client, which is provided by a Stream</li><li><strong>FilePathResult</strong> - Returns a file to the client</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/4743741/difference-between-viewresult-and-actionresult" rel="noreferrer" target="_blank" title="What is the difference between ViewResult() and ActionResult() in ASP.NET MVC? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 20. What are some of the advantages of using ASP.Net MVC vs Web Forms?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The main advantages of ASP.net MVC are:</p><ul><li>Enables the full control over the rendered HTML.</li><li>Provides clean separation of concerns(SoC).</li><li>Enables Test Driven Development (TDD).</li><li>Easy integration with JavaScript frameworks.</li><li>Following the design of stateless nature of the web.</li><li>RESTful urls that enables SEO.</li><li>No ViewState and PostBack events</li></ul><p>The main advantage of ASP.net Web Form are:</p><ul><li>It provides RAD development</li><li>Easy development model for developers those coming from winform development.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/102558/biggest-advantage-to-using-asp-net-mvc-vs-web-forms" rel="noreferrer" target="_blank" title="What are some of the advantages of using ASP.Net MVC vs Web Forms? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 21. What is the difference between ViewBag and ViewData in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>ViewBag is a wrapper around ViewData, which allows to create dynamic properties. Advantage of viewbag over viewdata will be:</p><ul><li>In ViewBag no need to typecast the objects as in ViewData.</li><li>ViewBag will take advantage of dynamic keyword which is introduced in version 4.0. But before using ViewBag we have to keep in mind that ViewBag is slower than ViewData.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is the difference between ViewBag and ViewData in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 22. Explain the methods used to render the views in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Below are the methods used to render the views from action:</p><ul><li>View() — To return the view from action.</li><li>PartialView() — To return the partial view from action.</li><li>RedirectToAction() — To Redirect to different action which can be in same controller or in different controller.</li><li>Redirect() — Similar to “Response.Redirect()” in webforms, used to redirect to specified URL.</li><li>RedirectToRoute() — Redirect to action from the specified URL but URL in the route table has been matched.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Explain the methods used to render the views in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 23. Can you explain RenderBody and RenderPage in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>RenderBody is like ContentPlaceHolder in web forms. This will exist in layout page and it will render the child pages/views. Layout page will have only one RenderBody() method. RenderPage also exists in Layout page and multiple RenderPage() can be there in Layout page.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Can you explain RenderBody and RenderPage in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 24. Can you explain the page life cycle of MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Below are the processed followed in the sequence:</p><ul><li>App initialization</li><li>Routing</li><li>Instantiate and execute controller</li><li>Locate and invoke controller action</li><li>Instantiate and render view</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Can you explain the page life cycle of MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 25. Can a view be shared across multiple controllers? If Yes, How we can do that?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Yes, we can share a view across multiple controllers. We can put the view in the "Shared" folder. When we create a new MVC Project we can see the Layout page will be added in the shared folder, which is because it is used by multiple child pages.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Can a view be shared across multiple controllers? If Yes, How we can do that? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 26. What is PartialView in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>PartialView is similar to UserControls in traditional web forms. For re-usability purpose partial views are used. Since it's been shared with multiple views these are kept in shared folder. Partial Views can be rendered in following ways –</p><ul><li>Html.Partial()</li><li>Html.RenderPartial()</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="What is PartialView in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 27. Explain the difference between MVC vs ASP.NET Web API</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li>The purpose of Web API framework is to generate HTTP services that reach more clients by generating data in raw format, for example, plain XML or JSON string. So, ASP.NET Web API creates simple HTTP services that renders raw data.</li><li>On the other hand, ASP.NET MVC framework is used to develop web applications that generate Views (HTML) as well as data. ASP.NET MVC facilitates in rendering HTML easy.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.codeproject.com/Articles/769140/Top-ASP-NET-Web-API-Interview-Questions" rel="noreferrer" target="_blank" title="Explain the difference between MVC vs ASP.NET Web API Interview Questions Source To Answer">codeproject.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 28. Explain TempData in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>TempData is again a key, value pair as ViewData. This is derived from “TempDataDictionary” class. TempData is used when the data is to be used in two consecutive requests, this could be between the actions or between the controllers. This requires typecasting in view.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Explain TempData in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 29. Explain Dependency Resolution?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Dependency Resolver</strong> has been introduced in MVC3 and it is greatly simplified the use of dependency injection in your applications. This turn to be easier and useful for decoupling the application components and making them easier to test and more configurable.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Explain Dependency Resolution? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 30. Why to use Html.Partial in MVC?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>This method is used to render the specified partial view as an HTML string. This method does not depend on any action methods. We can use this like below:</p><pre><code>@Html.Partial("TestPartialView")</code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/dot-net-tutorial/top-50-asp-net-mvc-interview-questions-with-answers-1fd9b1638c61" rel="noreferrer" target="_blank" title="Why to use Html.Partial in MVC? Interview Questions Source To Answer">medium.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 31. What are Validation Annotations?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/aspnetMvc-interview-questions">all 35 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 32. How route table has been created in ASP.NET MVC?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/aspnetMvc-interview-questions">all 35 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 33. What is Separation of Concerns in ASP.NET MVC?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/aspnetMvc-interview-questions">all 35 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 34. What are AJAX Helpers in MVC?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/aspnetMvc-interview-questions">all 35 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 35. What is Html.RenderPartial?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/aspnetMvc-interview-questions">all 35 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-      Thanks 🙌 for reading and good luck on your next tech interview!
-      <br data-v-5e9078c0="">
-      Explore 3800+ dev interview question here 👉
-      <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+<div>
+<p align="center">
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
+#### You can also find all 100 answers here 👉 [Devinterview.io - ASP.NET MVC](https://devinterview.io/questions/web-and-mobile-development/asp-net-mvc-interview-questions)
+
+<br>
+
+## 1. What is _ASP.NET MVC_ and how does it differ from _WebForms_?
+
+Both **ASP.NET MVC** and **WebForms** are web application frameworks, with MVC gaining popularity for its code cleanliness, separation of concerns, and flexibility.
+
+### Key Differences
+
+#### 1. Request Handling
+
+- **WebForms**: Uses a page controller model where a single page (web form) handles all tasks like request processing, UI rendering and event handling.
+- **MVC**: Adopts the Front Controller pattern where the `Controller` is the entry point, directing requests to specific actions. Each action maps to a view, offering finer control.
+
+#### 2. Routing
+
+- **WebForms**: Rely on URL mappings established in the `<system.web>` section of web.config.
+- **MVC**: Employs a powerful **attribute-based routing** mechanism. Entities can be assigned their unique URLs based on URL templates.
+
+#### 3. State Management
+
+- **WebForms**: Abstracts the HTTP stateless nature through mechanisms like ViewState, Session, and Control State.
+- **MVC**: Uses a stateless approach, offering more transparency and control. Stateful actions are supported via Context objects or custom implementations.
+
+#### 4. HTML Generation
+
+- **WebForms**: Features server controls that render HTML based on the server-side logic written in ASP.NET.
+- **MVC**: Offers highly-lauded Razor syntax for a more structured generation of dynamic web content.
+
+#### 5. Testability
+
+- **WebForms**: Is less testable due to event-driven architecture.
+- **MVC**: Separation of concerns makes components easier to test in isolation, facilitating unit and integration testing.
+<br>
+
+## 2. Explain the _MVC architectural pattern_.
+
+**MVC**, an architectural pattern first introduced by **Smalltalk-80**, is now widely adopted across various platforms like **ASP.NET MVC** and others.
+
+### Key Components
+
+- **Model**: Represents the application's logic, data, and rules. It is independent of the UI and directly interacts with the database, API, or any data source.
+- **View**: The visual representation or user interface presented to users. Views render the data provided by the model in a format that is suitable for user interaction.
+- **Controller**: Acts as an intermediate link between Model and View. It handles user input, processes them, and updates the Model and/or View as necessary.
+
+### Architecture Flow
+
+#### 1. Client Request
+
+- A user initiates an action, like submitting a form or clicking a link.
+- The **Controller** is responsible for capturing and managing such user actions.
+
+#### 2. Controller Action
+
+- The **Controller** liaises with the model to retrieve the requested data or to store user input.
+- It chooses the appropriate **View** to display based on the requested action.
+
+#### 3. Model Interaction
+
+- The Model, following the instructions from the Controller, processes or retrieves the necessary data.
+
+#### 4. View Rendering
+
+- The View presents the processed data from the Model in a user-friendly format.
+- The rendered View is then returned as a response to the client.
+
+### Loose Coupling and Separation of Concerns
+
+In the MVC architecture:
+
+- **Loose Coupling** ensures components can function independently. For instance, a different View can be associated with a Controller without changing the original setup.
+- **Separation of Concerns** keeps distinct roles of components. A well-constructed MVC project limits cross-component dependencies, making maintenance and scalability easier.
+
+### Code Example: ASP.NET MVC Controller Related Code
+
+Here is the C# code:
+
+```csharp
+public class BookController : Controller
+{
+    private BookRepository _bookRepository; // Access to the Model
+
+    public BookController()
+    {
+        _bookRepository = new BookRepository();
+    }
+
+    // GET: /Book/
+    public ActionResult Index()
+    {
+        // Retrieves a list of books from the Model
+        var books = _bookRepository.GetAll();
+        return View(books);  // Returns the data to a View for rendering
+    }
+
+    // GET: /Book/Details/5
+    public ActionResult Details(int id)
+    {
+        var book = _bookRepository.GetByID(id);
+        return View(book);
+    }
+
+    // GET: /Book/Create
+    public ActionResult Create()
+    {
+        return View();
+    }
+
+    // POST: /Book/Create
+    [HttpPost]
+    public ActionResult Create(Book book)
+    {
+        if (ModelState.IsValid)
+        {
+            _bookRepository.Add(book); // Updates the Model
+            return RedirectToAction("Index");
+        }
+        return View(book);
+    }
+
+    // Other action methods for Edit, Delete, etc.
+}
+```
+
+In this example:
+
+- The **Controller** (`BookController`) mediates user interaction for operations related to books.
+- The **Model** (`BookRepository`) encapsulates the data fetching, updating, and storage logic. It is accessed by the Controller through a private field.
+- The **View** is the user interface for different actions, for example, rendering a list of books in the `Index` action.
+<br>
+
+## 3. What are the main components of _ASP.NET MVC_?
+
+**ASP.NET MVC** is a web application framework that separates the application into three main components: **Model, View, and Controller**.
+
+### Model
+
+The **Model** is responsible for managing the data, business rules, logic, and objects of the application. It retrieves this data from the database and stores it there as well, functioning as the data management layer.
+
+#### Core Characteristics
+
+- **Data Retrieval**: The model retrieves data from the database or any other data source.
+- **Business Logic**: It contains the application's business logic responsible for processing data before passing it to the View or Controller.
+- **State Management**: The Model represents the application's data state, and any change in the Model automatically updates the associated Views.
+- **Data Validation**: The Model validates the data before passing it to the database.
+
+#### Additional Notes
+
+- The model in **MVC** is often represented as either a single object or a collection of objects.
+- It can also encapsulate the logic required to update the database.
+
+
+
+### View
+
+The **View** is the component that is responsible for displaying or presenting the user interface. It is a User Interface layer.
+
+#### Key Functions
+
+- **Data Presentation**: The View presents data to the user in a human-readable format.
+- **Data Output**: It outputs the data to be viewed by the end-users.
+
+#### Characteristics
+
+- **Passive Role**: There's minimal or no processing done within the View.
+- **Data Presentation Only**: It doesn't contain any application logic.
+
+#### Note
+
+- Views in **ASP.NET MVC** are not just limited to HTML views. They can be any form of a user interface, such as XML files, plain text, or even JavaScript-based interfaces.
+
+- A significant and distinct concept in **Views** is the use of display and editor templates. These are small, reusable templates specifically designed to render properties of models consistently.  
+
+
+
+### Controller
+
+The **Controller** acts as an intermediary between the View and the Model. It processes incoming requests, manipulates data using the Model, and selects the View to generate the response.
+
+#### Key Functions
+
+- **Request Handling**: It handles HTTP requests from the users or clients.
+- **Business Logic Coordination**: The Controller coordinates the application's business logic.
+- **View Selection**: After processing the request, the Controller selects the appropriate View for sending the response to the user.
+
+#### Key Characteristics
+
+- **No Direct Data Management**: The Controller doesn't directly handle data management.
+- **State Management**: It maintains the application's state during requests and keeps track of various components involved in a user's interaction.
+  
+#### Triggering Workflow
+
+1. **Request**: The client sends an HTTP request.
+2. **Routing**: The routing engine maps the URL to the corresponding Controller action.
+3. **Controller**: The appropriate action method of the Controller is invoked.
+4. **Model**: If required, the Model is updated based on the request data.
+5. **View Rendering**: The action method selects an appropriate View, and the Controller sends the resultant data and the View to the client for rendering.
+
+### Code Example: A Simple Controller
+
+Here is the C\# code:
+
+```csharp
+public class HomeController : Controller
+{
+    private readonly IEmployeeRepository _employeeRepository;
+
+    public HomeController(IEmployeeRepository employeeRepository)
+    {
+        _employeeRepository = employeeRepository;
+    }
+
+    public IActionResult Index()
+    {
+        var employees = _employeeRepository.GetAll();
+        return View(employees);
+    }
+
+    // Other action methods for Create, Edit, and Delete
+}
+```
+<br>
+
+## 4. How does the _routing mechanism_ work in _ASP.NET MVC_?
+
+In ASP.NET MVC, **routing** enables the mapping of URLs to Controller Actions, functioning as the starting point for request handling.
+​
+The application begins by extracting route data from the incoming URL and matching it to defined route templates.
+
+### Key Concepts
+- **Route Collection**: A set of defined URL patterns converted into `Route` objects, typically found in the `RouteCollection` of `RouteConfig`.
+  
+- **RouteConfig**: The specialized class where route registration is centralized.
+
+### Route Constraints and Defaults
+
+**Constraints** validate the URL fields specified in the route and impose restrictions, while **defaults** are used when a route value is absent, supplying a predetermined value.
+
+### Route Engine Functions
+
+The route engine employs the following to find the best route match:
+
+- **URL Matching**: By scanning the route collection to identify the most compatible route.
+  
+- **Route Template Parsing**: Extracting route data from the URL itself.
+
+### Order of Operations and Best Practices
+
+It's best to establish a profound understanding of the route-handling mechanism and adhere to best practices, like listing routes in descending order of specificity, to optimize URL mapping.
+<br>
+
+## 5. What is the role of the _Controller_ in _ASP.NET MVC_?
+
+The **Controller** in the **Model-View-Controller** architecture handles user requests and updates the model. **ASP.NET MVC** keeps controllers distinct, offering clear separation for data and UI components.
+
+### Basic Responsibilities of a Controller
+
+1. **Serving Requests**: Interacts as a focal point between the user and the system, dealing with web requests such as form submissions or URL routing.
+2. **Data Transformation**: Transforms user inputs into actions that the model and view can interpret, such as processing data from a form submission.
+3. **Routing URL**: Matches incoming URL requests to defined action methods.
+4. **Handling Results**: Orchestrates the flow of both user inputs and system outputs, directing the final result to the appropriate view.
+
+### Controller vs. Model/View
+
+- **Controller vs. Model**: The Controller oversees input data management, evaluates that data, and sends instructions to the model. In contrast, the model, accommodating these instructions, manipulates data.
+- **Controller vs. View**: The Controller, after analyzing input data, selects the appropriate view for the result. It then populates this view with model data.
+
+### MVC Request Lifecycle
+
+1. **Routing**: Requests are initially directed based on URL patterns.
+2. **Controller Selection**: The selected controller is prepared to handle the incoming request.
+3. **Action Execution**: Controllers initiate relevant action methods based on the request.
+4. **Result Generation**: Results from action methods are directed to the appropriate view.
+<br>
+
+## 6. Can you describe the lifecycle of an _ASP.NET MVC request_?
+
+The **ASP.NET MVC request lifecycle** is a sequence of events that starts when a user requests a web page and ends when the page is rendered and sent back to the browser.
+
+### Key Phases of the ASP.NET MVC Request Lifecycle
+
+1. **Routing**: The URL is parsed to determine the controller, action, and parameters.
+2. **Controller Initialization**: The corresponding controller is instantiated.
+3. **Action Method Selection**: The desired action method is located based on the incoming request.
+4. **Action Method Execution**: The selected action method is executed.
+5. **Result Execution**: The action method result is executed and rendered.
+
+### Code Example: Controller and Action Method
+
+Here is the C# code:
+
+```csharp
+using System.Web.Mvc;
+
+public class HomeController : Controller
+{
+    public ActionResult Index()
+    {
+        return View();
+    }
+}
+```
+
+### Detailed Request Lifecycle Steps
+
+1. **Routing**: This phase is responsible for analyzing the incoming URL and determining the corresponding controller and action. This is accomplished using a router, and default routing is provided for convenience.
+
+2. **Controller Initialization**: After the controller and action are determined, the appropriate controller is instantiated using a controller factory. This enables you to customize the process of controller creation if needed.
+
+3. **Action Method Selection**: The system locates the action method within the instantiated controller corresponding to the user's request, typically through reflection. Variants like public methods matching the HTTP method or decorated with specific attributes can be selected.
+
+4. **Action Method Execution**: Selected action methods are invoked, during which they can perform necessary tasks, such as data retrieval, manipulation, or interaction with other components.
+
+5. **Result Execution**: The ActionResult produced by the action method is executed, which could involve rendering a view, returning a HTTP response, or performing custom behavior.
+<br>
+
+## 7. What are _Actions_ in _ASP.NET MVC_?
+
+In the context of **ASP.NET MVC**, an **action** represents a unit of work that a controller performs, handling requests from users and preparing responses. Each action method uses attributes to specify the HTTP methods it responds to.
+
+Here are the fundamental components of an action method:
+
+### Action Method Elements
+
+1. **ControllerActions methods** of controllers that handle incoming HTTP requests.
+2. **Attributes** such as `[HttpGet]` and `[HttpPost]` define which HTTP methods the action responds to.
+3. **Return Type** dictates the type of content the action method returns, such as a JsonResult, PartialViewResult, or ViewResult.
+4. **Parameters** of the action method can be delivered using route data, query string, request body, or form data.
+
+### Code Example: Action Methods
+
+Here is the C# code:
+
+```csharp
+// Controller: Product
+public class ProductController : Controller
+{
+    [HttpGet] // Responds to HTTP GET requests
+    public IActionResult Index()
+    {
+        // Retrieve and return a list of products
+        return View("Index", productList);
+    }
+
+    [HttpPost] // Responds to HTTP POST requests
+    public IActionResult AddProduct(Product newProduct)
+    {
+        // Add product to the data store
+        return RedirectToAction("Index");
+    }
+
+    // Custom route definition
+    [HttpGet("products/{id}")] // Responds to /products/{id} using a custom route
+    public IActionResult ProductDetail(int id)
+    {
+        // Retrieve product by id and return it
+        return View("ProductDetail", product);
+    }
+}
+```
+
+### HTTP Methods and Actions
+
+In many interactive web applications, **HTTP requests** necessitate different responses based on the **HTTP method** used. Each method corresponds to specific user actions, enabling the server to react appropriately.
+
+- **GET**: Requests data from the server (e.g., displaying a product catalog or obtaining user profile data).
+- **POST**: Sends data to the server for a new operation (e.g., adding a product to a shopping cart or submitting a form for user input).
+- **PUT**: Updates data on the server (e.g., modifying user profile information).
+- **DELETE**: Removes data from the server (e.g., removing an item from a shopping cart).
+
+ASP.NET MVC simplifies the process of handling these different request types through the use of attributes.
+
+#### Benefits of Using Action Attributes
+
+Attributes streamline the process of guiding HTTP requests to the correct action methods.
+
+- **Explicitness**: Attributes offers visually explicit instructions about a method's behavior related to HTTP methods and routing.
+- **Simplicity**: The inclusion of attributes in close proximity to the method declaration enhances the method's clarity and purpose.
+- **Consistency**: Using attributes ensures uniformity in how methods respond to HTTP requests within the entire application.
+
+### Security Considerations
+
+Bound methods have associated HTTP methods and are accessed directly from external client requests. Always exercise caution and implement appropriate security measures, such as input validation, to fortify your application against potential vulnerabilities, like Cross-Site Request Forgery (CSRF).
+
+### Backup Plan for Missing Actions
+
+Should a bound method be unavailable, ASP.NET MVC will generate an **HTTP 404 (Not Found)** response. This safety mechanism prevents unintended access to resources that you might choose not to make public.
+<br>
+
+## 8. What is _Razor View Engine_?
+
+**Razor** is a view engine used in ASP.NET MVC and ASP.NET Web Pages, designed for generating web pages optimally with minimal syntax.
+
+### Key Features
+
+- **Data Binding**: Razor uses C# code blocks (`@{ ... }`) for dynamic data integration.
+- **Clean Syntax**: Its clean and minimal syntax, **envisioned for HTML templates**, simplifies template design.
+- **IntelliSense Integration**: Razor offers improved IntelliSense support over older engines like ASPX.
+- **Reusability**: It promotes code reusability via partial views and layout pages.
+
+### Razor Syntax Overview
+
+- **@\**: Allows infix incorporation of C# code in your HTML markup.
+- **HTML Helpers**: Furnish a more expressive way to render HTML controls using C# methods.
+- **Partials and Layouts**: Razor encourages a modular approach via `@Html.Partial` and `@RenderSection` for composing layouts.
+
+### Code Example: Razor Template
+
+```html
+@model Namespace.To.Your.ViewModel
+
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Welcome to our application, @Model.UserFullName!</h2>
+
+@Html.Partial("_RecentPosts", Model.RecentPosts)
+
+<footer>@DateTime.Now.Year</footer>
+```
+<br>
+
+## 9. How do you pass data from a _Controller_ to a _View_?
+
+**Controllers** serve as intermediaries between **Models** and **Views** in the MVC (Model-View-Controller) architecture. They prepare and transfer data to the Views for presentation. Two primary methods for passing data are:
+
+### ViewData
+
+- **Controller**: Set ViewData as a key-value pair.
+- **View**: Retrieve data using `ViewData["key"]`.
+
+```csharp
+// Controller
+public ActionResult Index()
+{
+    ViewData["Message"] = "Welcome to the Index page!";
+    return View();
+}
+
+// View
+<h2>@ViewData["Message"]<h2>
+```
+
+### ViewBag
+
+- **Controller**: Use ViewBag similarly to ViewData.
+- **View**: Access data using dynamic properties.
+
+```csharp
+// Controller
+public ActionResult Index()
+{
+    ViewBag.Message = "Welcome to the Index page!";
+    return View();
+}
+
+// View
+<h2>@ViewBag.Message</h2>
+```
+<br>
+
+## 10. What are the different ways to manage _sessions_ in _ASP.NET MVC_?
+
+In ASP.NET MVC, **sessions** provide a way to persist data across multiple requests for a user's browsing session. The state is stored on the server, while the client gets a unique identifier, usually in the form of a cookie, to manage the session.
+
+### Session Providers
+
+ASP.NET MVC allows for different session management strategies, each suited to particular use-cases.
+
+### InProc
+
+- **Description**: Session data is stored in the web server's memory, making this method the quickest. This is the default mode.
+- **Best Fit For**: Small applications which require a simple and fast session management mechanism.
+- **Limitations**: 
+  - Not suitable for web farms or server clusters. 
+  - All session data is lost if the server restarts, doesn't handle sudden spikes in traffic well, and can lead to a **session-waiting request deadlock**.
+
+### State Servers
+
+- **Description**: The session state is stored separately in a separate process called the **ASP.NET State Server**.
+- **Best Fit For**: Websites deployed in a server farm or web garden environment.
+- **Limitations**:
+  - Since session data is stored outside the web application, it must be serializable.
+  - Data resides only in the memory of the ASP.NET state server, meaning the server can't restart without losing all session data.
+  - Adds some latency to your application.
+
+### SQL Server
+
+- **Description**: The session state is stored in a SQL Server database. 
+- **Best Fit For**: Scalable, fault-tolerant web applications.
+- **Limitations**: 
+  - Requires additional infrastructure (a database server).
+  - Slower than the default 'InProc' mode due to the database transactions.
+  - Session data must be serializable to be stored in SQL Server.
+  - It's essential to tune the database properly to ensure efficient performance.
+
+### Redis
+
+- **Description**: Uses a **Redis** cache as a backend store for session state.
+- **Best Fit For**: Scalable and high-performance web applications.
+- **Limitations**: 
+  - Requires a running Redis server. Extra overhead in managing and maintaining the Redis server.
+  - Slightly slower than **InProc** mode due to the network round trip to the Redis server.
+
+### Custom
+
+- **Description**: Developers can build their session state modules.
+- **Best Fit For**: Extremely specific requirements not covered by the options provided out of the box.
+- **Limitations**: 
+  - Requires additional coding and thorough testing.
+
+### Configuration in Web.config
+
+You can specify the session state mode in your `Web.config` file using the `sessionState` section. For instance, to specify SQL Server as the session mode, you would use: 
+
+```xml
+<configuration>
+  <system.web>
+    <sessionState mode="SQLServer"
+      sqlConnectionString="Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=True"
+      cookieless="false"
+      timeout="20" />
+  </system.web>
+</configuration>
+```
+<br>
+
+## 11. Explain the concept of _TempData_, _ViewBag_, and _ViewData_.
+
+**ASP.NET MVC** provides different mechanisms to pass data from the controller to the view at various stages of a user's request. These mechanisms include **ViewData**, **ViewBag**, and **TempData**.
+
+### Types of Data in ASP.NET MVC
+
+- **ViewData**: A container for passing small amounts of data from controller to the related view. This is useful when submitting **form data** to be displayed back in the case of errors.
+
+- **ViewBag**: A dynamic wrapper around ViewData which acts as a quick-and-easy way to shuttle data between Controllers and Views.
+
+- **TempData**: A session-backed mechanism meant to survive only until its value is read. This is useful for passing data which needs to **persist between requests**, such as messages for **redirection** after an action or one-time **confirmation** messages.
+
+### Code Example: Using TempData
+
+Here is the C# code:
+
+#### Controller Action to Set TempData
+
+```csharp
+public ActionResult Index()
+{
+    TempData["FeedbackMessage"] = "Saved successfully!";
+    return RedirectToAction("Details");
+}
+```
+
+#### Controller Action to Read TempData
+
+```csharp
+public ActionResult Details()
+{
+    ViewBag.Message = TempData["FeedbackMessage"];
+    return View();
+}
+```
+
+#### View to Display Message
+
+```html
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-success">
+        <strong>Success!</strong> @ViewBag.Message
+    </div>
+}
+```
+
+In the View, such as `Details.cshtml`, the `ViewBag.Message` will display the message set in the `Index` action.
+
+### Potential Pitfalls
+
+- **Data Loss**: For all these mechanisms, if data set in the controller doesn't get displayed, it can be lost.
+
+- **Cleanliness**: Keeping the Views clean from clutter by avoiding using them as data transmission mechanisms. Instead, use more structured forms or models for data input and display.
+
+- **Reusability**: Ensuring that data passed from the controller doesn't become tied to a specific display context, it won't make the View to be reusable.
+<br>
+
+## 12. What are _HTML Helpers_ in _ASP.NET MVC_?
+
+**HTML Helpers** in **ASP.NET MVC** are methods that simplify the task of generating **HTML markup**. They offer a consistent way to produce UI elements and can be bound either manually or automatically.
+
+Comprehensive support is provided for these QR codes:
+
+- **Authentication**: QR codes may be used for two-factor authentication. For example, Google Authenticator generates QR codes to synchronize with your accounts.
+- **Payments**: Some mobile banking apps use QR codes for quick peer-to-peer payments.
+
+### Benefits of Using HTML Helpers
+
+- **Code Reusability**: You don't have to write the same HTML repeatedly. Abstraction allows you to reuse code segments as needed.
+  
+- **Type Safety**: Using HTML Helpers guarantees that you're providing the appropriate data types, such as a string or numeric value.
+  
+- **Intellisense Support**: Developers are aided with prompts and suggestions during code development.
+
+### Categories of HTML Helpers
+
+1. **Standard HTML Helpers**: Common UI components such as text boxes, labels, and dropdowns fall under this category.
+
+2. **Strongly Typed HTML Helpers**: These are associated with model classes and are handy for functions like form submissions and control display.
+
+3. **Templated HTML Helpers**: They are used for creating custom view templates, which makes modifications to the default rendering for various data types.
+
+4. **Extension Methods**: These helpers are integrated directly into the `HtmlHelper` class, permitting your own extensions.
+
+### Advantages of HTML Helpers Over Inline HTML
+
+- **Unit test-ability**: HTML Helpers can be tested using unit test frameworks, ensuring that the generated HTML is correct.
+  
+- **Extensibility**: You may create custom HTML Helpers to cater to specialized UI requirements.
+  
+- **Code Readability**: By encapsulating complex rendering logic, your view files remain concise and easy to understand.
+
+### When to Use HTML Helpers versus Inline HTML
+
+- **HTML Helpers** are beneficial when developing larger applications with larger teams. They offer a structured approach to generate HTML.
+
+- **Inline HTML** is fine for smaller projects. However, using it in large applications can lead to inconsistencies and maintenance difficulties.
+
+### Code Example: HTML Helper for Text Input
+
+Here is the C# code:
+
+```csharp
+@Html.TextBoxFor(model => model.Age, new { @class = "form-control", placeholder = "Enter your age" })
+```
+
+### Code Example: Inline HTML
+
+Here is the HTML code:
+
+```html
+<input type="text" id="age" name="Age" class="form-control" placeholder="Enter your age">
+```
+
+### Visual Studio Extensions for HTML Helpers
+
+- **Razor Toolbox**: Provides a dedicated toolbox for Razor HTML Helpers.
+  
+- **MVC Controls Toolkit**: Offers various rich, responsive controls optimized for ASP.NET MVC.
+<br>
+
+## 13. How does _Model Binding_ work in _ASP.NET MVC_?
+
+**Model Binding** automates the transfer of data between HTTP requests, web forms, and business objects. In **ASP.NET MVC**, this process involves **matching** form data or query-string parameters to object properties using customizable conventions.
+
+### Key Concepts
+
+- **Model**: Represents a business object being constructed or modified. It commonly aligns with a **view-specific ViewModel** or **action method parameter**.
+
+- **Value Providers**: Extract data from HTTP requests, such as query strings or form data. Each method in `ValueProvider` retrieves data from one specific data source like `QueryStringValueProvider` or `FormCollectionProvider`.
+
+### Model Binding Pipeline
+
+The platform uses a step-by-step mechanism to piece together and validate a model from incoming data.
+
+1. **Value Provider Composition**: **ASP.NET MVC** assembles several `ValueProviders` that source data from candidate locations like the route data, request query string, or browser cookies.
+
+2. **Data Extraction and Prefix Handling**: Data pertinent to a specific model is discerned based on prefixes. This step also ensures that any findings are filtered by the model's specific prefix, which avoids conflicts or data leakages from other models.
+
+3. **Data Conversion**: The extracted strings are transformed into the target property types using formatter classes such as `ModelBinder`.
+
+4. **Validation**: The validated model state, if necessary, undergoes further **model-level validation**. Respectively, the platform can tab into `IValidatableObject`.
+
+5. **Model Population**: Conclusively, the model is populated with the validated and transformed data that satisfies the earlier steps. This populated model is then handed off to the controller action as a formal parameter.
+
+### Code Example: Model Binding
+
+Here is the C# code:
+
+```csharp
+public class MyController : Controller
+{
+    [HttpPost]
+    public ActionResult SaveGame(GameViewModel model)
+    {
+        if (ModelState.IsValid)
+        {
+            // Process the model
+            return RedirectToAction("Success");
+        }
+
+        // Model is not valid - render back the form with errors
+        return View(model);
+    }
+}
+```
+
+In this example, `GameViewModel` is the **binding model**, and `SaveGame` is an action method that will be invoked when the form is submitted. The `model` parameter represents the data that has been bound from the request body, and internal validation is then checked using `ModelState.IsValid`. If validation fails, the view is rendered back with errors.
+<br>
+
+## 14. What is the purpose of the _ViewStart file_ in _ASP.NET MVC_?
+
+The **ViewStart file** in ASP.NET MVC allows you to define common settings, such as the **Master Layout** and other **Razor** directives that are applied to all views within a specific directory or the project.
+
+### Key Functions
+
+1. **Globalized Settings**: Instead of specifying a Layout in each View file individually, you can set it once in the ViewStart file. This is useful for consistency across the application.
+
+2. **Default Settings**: The ViewStart defines default settings to reduce redundancy and improve code maintainability.
+
+3. **Multi-level Cascading**: The ViewStart's settings can trickle down into subdirectories, streamlining global and localized settings.
+
+### Code Example: ViewStart.cshtml
+
+Here is the content of `ViewStart.cshtml`:
+
+```razor
+@{
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+    ViewData["GlobalHeader"] = "Welcome to My Site";
+}
+```
+<br>
+
+## 15. What are _Partial Views_ and how are they different from _View Components_?
+
+In ASP.NET MVC, **Partial Views** and **View Components** serve similar purposes by letting you split complex UI logic into more manageable chunks. However, each has its unique role and characteristics.
+
+### Core Differences
+
+- **Lifecycle**: Partial Views are rendered as part of a parent view. Once the parent view is complete, partial views also render. In contrast, View Components are independent units and can be rendered from inside a view or a controller.
+  
+- **Strongly Typed Model**: Partial Views can share the same model as the parent view. Therefore, any model needed in a child view needs to be passed from the parent. View Components, on the other hand, define their individual model, making them more consistent and self-contained.
+  
+- **Razor Syntax**: Partial Views utilize Razor syntax, which allows for inline C# code with `@` directives. View Components, operating as standalone units, are coded inside a class and leverage `@functions` for code.
+
+- **Render Mechanism**: You render a Partial View by calling the `Html.Partial` or `Html.RenderPartial` method. A View Component, in contrast, is invoked using a **tag helper** or `ViewComponent()` method.
+
+- **Caching**: View Components are more powerful in scenarios where caching is required. They support both client and server-side caching out-of-the-box, providing more fine-grained control over cache durations and invalidation.
+
+- **Complexity**: Partial Views are a simpler, longstanding feature of MVC, often handling basic UI elements like headers or footers. View Components are more recent additions, intended to handle complex view logic in a modular, reusable manner.
+
+### When to Use Which
+
+- **Complex UI Logic**: When you need to encapsulate complex UI logic that requires its own controller-like structure, View Components are the way to go.
+  
+- **Reusability**: View Components offer better encapsulation and reusability, making them a preferred choice for components such as navigation menus or shopping carts that are used across many views.
+
+- **Performance and Caching**: If caching or better performance are priorities, View Components are the recommended choice due to their built-in support for caching mechanisms.
+  
+- **Simplicity and Quick Wins**: For simpler UI elements, or when the intention is to rapidly build a view without worrying about a separate controller or caching, Partial Views are an efficient choice.
+
+- **Model Consistency**: If you desire a view component to have a consistent, predefined model, View Components with their explicit model declaration are the better fit. If reusability across different parent view models is necessary, a Partial View is more suitable, provided the parent is responsible for passing necessary models.
+
+- **Debugging and Maintenance**: Partial Views are easier to manage within the context of their parent views, making them faster to debug. But if a component requires its debugging context or has significant individual logic, a View Component might be more efficient in the long run.
+<br>
+
+
+
+#### Explore all 100 answers here 👉 [Devinterview.io - ASP.NET MVC](https://devinterview.io/questions/web-and-mobile-development/asp-net-mvc-interview-questions)
+
+<br>
+
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
